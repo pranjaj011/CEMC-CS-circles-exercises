@@ -5,5 +5,4 @@ def getBASIC():
          b.append(c)
          if c.endswith("END")==True:
             break
-   print(b)
    return b
