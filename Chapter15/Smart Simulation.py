@@ -7,4 +7,4 @@ def execute(prog):
     elif visited[location] == True: return "infinite loop"
     visited[location] = True
     T = (prog[location].split())
-    location = findLine(prog, T[len(T)-1])
+    location = findLine(prog, T[-1])
