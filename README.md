@@ -1,3 +1,2 @@
-# Bonjour
-# CEMC CS circles: Coding Exercise: Bonjour
-print("Bonjour, tout le monde!")
+CEMC CS circles: Coding Exercises
+
