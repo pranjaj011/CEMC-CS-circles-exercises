@@ -1,0 +1,4 @@
+x = min(min(a,b),c)
+y = min(d,e)
+z = max (x,y)
+print (z)
