@@ -23,7 +23,7 @@ result = ''
 for x in code:
     if x == ' ': # add the space when needed by checking from the input
         result += x
-    elif ord(x) - S not in range(65, 91): # using the step value to find the text
+    elif ord(x) - S not in range(65, 91): # using the step value to find the text, if it goes before 64 return to 90
         result += chr(ord(x) - S + 26)
     else:
         result += chr(ord(x) - S)
